@@ -2,7 +2,7 @@ const path = require('path');
 const WebpackProvidePlugin = require('webpack').ProvidePlugin;
 
 module.exports = {
-    entry: path.resolve(__dirname, 'src/index.js'),
+    entry: path.resolve(__dirname, 'src/index.tsx'),
     output:{
         filename: "[name].build.js"
     },
@@ -13,9 +13,7 @@ module.exports = {
         rules:[
             {
                 test:/(\.tsx)$/,
-                use:{
-                    loader: "ts-loader",
-                }
+                loader: "ts-loader",
             },
             {
                 test:/(\.(scss|css))$/,
