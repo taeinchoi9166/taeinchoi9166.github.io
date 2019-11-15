@@ -1,0 +1,14 @@
+$block_color: #f2f0f3;
+
+.visual-block{
+  float:left;
+  min-width:300px;
+}
+
+@media (max-width:790px) {
+  .visual-block {
+    width:100% !important;
+    margin:0% !important;
+  }
+}
+

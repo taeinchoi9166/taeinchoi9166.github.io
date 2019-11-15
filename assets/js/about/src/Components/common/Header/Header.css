@@ -1,0 +1,93 @@
+.header {
+  width: 100%;
+  height: 100vh;
+  display: inline-block;
+}
+.header .welcome-box {
+  width: 100%;
+  height: 90px;
+  padding: 4rem 0;
+  display: inline-block;
+}
+.header .welcome-box .welcome-msg {
+  width: 100%;
+  text-align: center;
+  font-size: 3.4rem;
+  color: #eee;
+  font-weight: bold;
+  margin-bottom: 8rem;
+}
+.header .welcome-box .seed-round {
+  width: 12%;
+  min-width: 120px;
+  height: auto;
+  border: 5px solid #fff;
+  border-radius: 50%;
+  padding: 2.1rem;
+}
+.header .welcome-box .seed-round svg {
+  width: 100%;
+  height: 100%;
+}
+.header .welcome-box .seed-round svg > * {
+  color: #fff !important;
+}
+.header .jump-btn-wrap {
+  width: 13rem;
+  height: 13rem;
+  position: relative;
+}
+.header .jump-btn-wrap .jump-btn {
+  width: 100%;
+  height: 25%;
+  border-radius: 5px;
+  background: #3fb776;
+  color: #efefef;
+  padding: 12px 16px;
+  text-align: center;
+  font-size: 1.13rem;
+  position: absolute;
+  bottom: 0;
+  cursor: pointer;
+  animation: buttonJumpUp 3s ease-out infinite;
+}
+@keyframes buttonJumpUp {
+  0% {
+    bottom: 0rem;
+  }
+  7% {
+    bottom: 0rem;
+  }
+  17% {
+    bottom: 4rem;
+  }
+  25% {
+    bottom: 0rem;
+  }
+  30% {
+    bottom: 1.4rem;
+  }
+  35% {
+    bottom: 0rem;
+  }
+  38% {
+    bottom: 0.8rem;
+  }
+  49% {
+    bottom: 0;
+  }
+  54% {
+    bottom: 0.35rem;
+  }
+  60% {
+    bottom: 0;
+  }
+  67% {
+    bottom: 0.2rem;
+  }
+  73% {
+    bottom: 0;
+  }
+}
+
+/*# sourceMappingURL=Header.css.map */

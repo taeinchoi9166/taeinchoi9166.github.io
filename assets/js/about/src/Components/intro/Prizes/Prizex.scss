@@ -1,0 +1,44 @@
+@import '../../../VisualBlockCommon';
+
+$prize_item_bg:rgba(253,2532,253,0.7);
+
+.prizes {
+  width:100%;
+  display: inline-block;
+
+  h2 {
+    width:100%;
+    margin: 0.5rem 0;
+    text-align: center;
+    color: $title-color;
+  }
+
+  .prize-list{
+    width:80%;
+    display: inline-block;
+    margin: 0.5rem 10%;
+    border-radius: 0.5rem;
+    overflow: hidden;
+
+    li {
+      width:100%;
+      text-align: center;
+      background:  $prize_item_bg;
+      cursor: pointer;
+      padding: 0.6rem 0.3rem;
+      transition: 0.5s;
+
+      svg {
+        margin:0.1rem;
+      }
+
+      &:hover {
+        background: $hovered_item;
+
+        * {
+          color: $hovered_font;
+        }
+      }
+    }
+  }
+}

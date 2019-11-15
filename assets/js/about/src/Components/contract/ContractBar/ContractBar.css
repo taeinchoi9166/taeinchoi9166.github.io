@@ -1,0 +1,25 @@
+.contract-bar {
+  width: 80%;
+  padding: 0.9rem 0.4rem;
+  background: rgba(253, 253, 253, 0.7);
+  border-radius: 8px;
+  margin: 2rem 10%;
+}
+.contract-bar h1 {
+  width: 100%;
+  text-align: center;
+}
+.contract-bar > div {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+@media (max-width: 790px) {
+  .contract-bar div {
+    align-items: center;
+    flex-direction: column;
+  }
+}
+
+/*# sourceMappingURL=ContractBar.css.map */

@@ -1,0 +1,36 @@
+@import '../../../VisualBlockCommon';
+$license_item:rgba(253,2532,253,0.7);
+
+.licenses {
+  display: inline-block;
+  width:100%;
+
+  h2 {
+    width:100%;
+    text-align: center;
+    color: $title-color;
+  }
+
+  ul {
+    width:80%;
+    margin:0 10%;
+    display: inline-block;
+    overflow: hidden;
+    border-radius: 0.5rem;
+
+    li {
+      width:100%;
+      padding: 0.8rem 0.6rem;
+      background: $license_item;
+      text-align: center;
+      cursor: pointer;
+      transition: 0.5s;
+
+      &:hover {
+        background: $hovered_item;
+        color: $hovered_font;
+
+      }
+    }
+  }
+}

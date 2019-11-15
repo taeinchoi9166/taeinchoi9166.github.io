@@ -1,8 +1,8 @@
 
-export default function Chronicle(){
-  return (
-    <div className={"chronicle-wrap"}>
-
-    </div>
-  );
-}
+// export default function Chronicle(){
+//   return (
+//     <div className={"chronicle-wrap"}>
+//
+//     </div>
+//   );
+// }

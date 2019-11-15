@@ -18,12 +18,13 @@ module.exports = {
             {
                 test:/(\.(scss|css))$/,
                 loaders:['style-loader', 'css-loader', 'sass-loader']
+            },
+            {
+                test:/(\.(jpg|png|gif|jpeg))$/,
+                loader: 'url-loader'
             }
         ]
     },
-    plugins: [
-        new WebpackProvidePlugin({
-            React: 'react'
-        })
-    ]
+    plugins: [],
+    mode: 'production'
 };

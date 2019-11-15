@@ -1,5 +1,32 @@
+@import url("https://fonts.googleapis.com/css?family=Barlow&display=swap");
 * {
-  color: red;
+  margin: 0 auto;
+  padding: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+  color: #222;
+  font-family: "Barlow", sans-serif;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+button {
+  border: none;
+  background: none;
+}
+
+body {
+  background: linear-gradient(310deg, #c6ea8d, #fe90af);
+}
+
+#root {
+  width: 100%;
+  display: inline-block;
+}
+#root .container {
+  max-width: 1020px;
 }
 
 /*# sourceMappingURL=App.css.map */

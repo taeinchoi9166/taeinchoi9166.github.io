@@ -1,0 +1,13 @@
+.visual-block {
+  float: left;
+  min-width: 300px;
+}
+
+@media (max-width: 790px) {
+  .visual-block {
+    width: 100% !important;
+    margin: 0% !important;
+  }
+}
+
+/*# sourceMappingURL=VisualBlock.css.map */

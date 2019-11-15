@@ -1,0 +1,12 @@
+$wrap_color: rgba(250, 250, 250, 0.3 );
+$shadow_color: #c9cdcd;
+
+.intro-wrap{
+  background: $wrap_color;
+  width:92%;
+  height:90%;
+  margin:5% 4%;
+  display: inline-block;
+  border-radius: 1rem;
+  padding:20px 0;
+}

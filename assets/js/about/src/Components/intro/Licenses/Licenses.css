@@ -1,0 +1,30 @@
+.licenses {
+  display: inline-block;
+  width: 100%;
+}
+.licenses h2 {
+  width: 100%;
+  text-align: center;
+  color: #353535;
+}
+.licenses ul {
+  width: 80%;
+  margin: 0 10%;
+  display: inline-block;
+  overflow: hidden;
+  border-radius: 0.5rem;
+}
+.licenses ul li {
+  width: 100%;
+  padding: 0.8rem 0.6rem;
+  background: rgba(253, 255, 253, 0.7);
+  text-align: center;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.licenses ul li:hover {
+  background: rgba(10, 10, 10, 0.77);
+  color: #eee;
+}
+
+/*# sourceMappingURL=Licenses.css.map */

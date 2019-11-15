@@ -1,0 +1,13 @@
+footer {
+  background: #333;
+  width: 100%;
+  padding: 1rem 0;
+}
+footer div {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  color: #eee;
+}
+
+/*# sourceMappingURL=Footer.css.map */

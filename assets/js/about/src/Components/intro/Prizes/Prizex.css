@@ -1,0 +1,36 @@
+.prizes {
+  width: 100%;
+  display: inline-block;
+}
+.prizes h2 {
+  width: 100%;
+  margin: 0.5rem 0;
+  text-align: center;
+  color: #353535;
+}
+.prizes .prize-list {
+  width: 80%;
+  display: inline-block;
+  margin: 0.5rem 10%;
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+.prizes .prize-list li {
+  width: 100%;
+  text-align: center;
+  background: rgba(253, 255, 253, 0.7);
+  cursor: pointer;
+  padding: 0.6rem 0.3rem;
+  transition: 0.5s;
+}
+.prizes .prize-list li svg {
+  margin: 0.1rem;
+}
+.prizes .prize-list li:hover {
+  background: rgba(10, 10, 10, 0.77);
+}
+.prizes .prize-list li:hover * {
+  color: #eee;
+}
+
+/*# sourceMappingURL=Prizex.css.map */

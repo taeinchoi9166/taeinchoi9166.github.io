@@ -1,0 +1,11 @@
+.intro-wrap {
+  background: rgba(250, 250, 250, 0.3);
+  width: 92%;
+  height: 90%;
+  margin: 5% 4%;
+  display: inline-block;
+  border-radius: 1rem;
+  padding: 20px 0;
+}
+
+/*# sourceMappingURL=IntroWrap.css.map */

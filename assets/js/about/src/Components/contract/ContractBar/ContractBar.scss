@@ -1,0 +1,31 @@
+$contract-bar-bg: rgba(253, 253, 253, 0.7);
+
+.contract-bar {
+  width:80%;
+  padding:0.9rem 0.4rem;
+  background: $contract-bar-bg;
+  border-radius: 8px;
+  margin: 2rem 10%;
+
+  h1 {
+    width:100%;
+    text-align: center;
+  }
+
+  & > div {
+    display:flex;
+    justify-content: center;
+    width:100%;
+
+  }
+}
+
+
+@media (max-width:790px) {
+  .contract-bar{
+    div{
+      align-items: center;
+      flex-direction: column;
+    }
+  }
+}
