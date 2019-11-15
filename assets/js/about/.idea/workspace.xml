@@ -1,39 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4354ceef-0607-4ca2-8233-80a2eb5a431a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Components/common/Footer/Footer.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/common/Footer/Footer.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/common/Header/Header.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/common/Header/Header.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/contract/ContractBar/ContractBar.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/contract/ContractBar/ContractBar.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/contract/ContractItem/ContractItem.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/contract/ContractItem/ContractItem.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/intro/Licenses/Licenses.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/intro/Licenses/Licenses.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/intro/Prizes/Prizes.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/intro/Prizes/Prizex.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/intro/SkillStack/SkillStack.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/intro/VisualBlock/VisualBlock.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/intro/VisualBlock/VisualBlock.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/VisualBlockCommon.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/index.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/master.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../_layouts/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../_layouts/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/main.build.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/main.build.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/intro/Chronicle/Chronicle.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/intro/Chronicle/Chronicle.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
-    </list>
+    <list default="true" id="4354ceef-0607-4ca2-8233-80a2eb5a431a" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -45,16 +13,16 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Components/contract/ContractItem/ContractItem.tsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="28" column="12" lean-forward="true" selection-start-line="28" selection-start-column="12" selection-end-line="28" selection-end-column="12" />
+            <state relative-caret-position="125">
+              <caret line="15" column="60" selection-start-line="15" selection-start-column="60" selection-end-line="15" selection-end-column="60" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Components/contract/ContractItem/ContractItem.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="175">
@@ -208,7 +176,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="2958" />
     <option name="y" value="-387" />
     <option name="width" value="480" />
@@ -267,14 +235,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Components" type="462c0819:PsiDirectoryNode" />
               <item name="contract" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="about" type="b2602c69:ProjectViewProjectNode" />
-              <item name="about" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Components" type="462c0819:PsiDirectoryNode" />
-              <item name="contract" type="462c0819:PsiDirectoryNode" />
-              <item name="ContractBar" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="about" type="b2602c69:ProjectViewProjectNode" />
@@ -373,19 +333,19 @@
       <workItem from="1573430594147" duration="23343000" />
       <workItem from="1573515666099" duration="16913000" />
       <workItem from="1573540854014" duration="3915000" />
-      <workItem from="1573775794755" duration="20165000" />
+      <workItem from="1573775794755" duration="20450000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="69134000" />
+    <option name="totallyTimeSpent" value="69419000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="2552" y="-382" width="1936" height="1056" extended-state="7" />
+    <frame x="2552" y="-382" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="1" weight="0.10906217" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.10906217" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="GraphQL" order="0" />
       <window_info anchor="bottom" id="Terminal" order="1" weight="0.22993493" />
@@ -676,16 +636,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/common/Footer/Footer.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Components/contract/ContractBar/ContractBar.tsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -696,10 +646,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/contract/ContractItem/ContractItem.tsx">
+    <entry file="file://$PROJECT_DIR$/src/Components/contract/ContractItem/ContractItem.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="28" column="12" lean-forward="true" selection-start-line="28" selection-start-column="12" selection-end-line="28" selection-end-column="12" />
+        <state relative-caret-position="175">
+          <caret line="46" column="19" selection-start-line="46" selection-start-column="19" selection-end-line="46" selection-end-column="19" />
         </state>
       </provider>
     </entry>
@@ -710,10 +660,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/contract/ContractItem/ContractItem.scss">
+    <entry file="file://$PROJECT_DIR$/src/Components/common/Footer/Footer.tsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="46" column="19" selection-start-line="46" selection-start-column="19" selection-end-line="46" selection-end-column="19" />
+        <state relative-caret-position="225">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/contract/ContractItem/ContractItem.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="15" column="60" selection-start-line="15" selection-start-column="60" selection-end-line="15" selection-end-column="60" />
         </state>
       </provider>
     </entry>

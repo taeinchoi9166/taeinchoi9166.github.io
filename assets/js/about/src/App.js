@@ -13,27 +13,15 @@ var Prizes_1 = __importDefault(require("./Components/intro/Prizes/Prizes"));
 var Licenses_1 = __importDefault(require("./Components/intro/Licenses/Licenses"));
 var ContractBar_1 = __importDefault(require("./Components/contract/ContractBar/ContractBar"));
 var Footer_1 = __importDefault(require("./Components/common/Footer/Footer"));
-// @ts-ignore
-var spring_png_1 = __importDefault(require("./assets/images/skill_stack/spring.png"));
-// @ts-ignore
-var java_png_1 = __importDefault(require("./assets/images/skill_stack/java.png"));
-// @ts-ignore
-var nodejs_png_1 = __importDefault(require("./assets/images/skill_stack/nodejs.png"));
-// @ts-ignore
-var react_png_1 = __importDefault(require("./assets/images/skill_stack/react.png"));
-// @ts-ignore
-var arduino_jpg_1 = __importDefault(require("./assets/images/skill_stack/arduino.jpg"));
-// @ts-ignore
-var android_png_1 = __importDefault(require("./assets/images/skill_stack/android.png"));
 function App() {
     var skills = {
         skills: [
-            { name: 'spring', imageURL: spring_png_1.default },
-            { name: 'java', imageURL: java_png_1.default },
-            { name: 'node.js', imageURL: nodejs_png_1.default },
-            { name: 'react', imageURL: react_png_1.default },
-            { name: 'arduino', imageURL: arduino_jpg_1.default },
-            { name: 'android', imageURL: android_png_1.default }
+            { name: 'spring', score: 70 },
+            { name: 'java', score: 80 },
+            { name: 'node.js', score: 85 },
+            { name: 'react', score: 90 },
+            { name: 'c', score: 60 },
+            { name: 'android', score: 70 }
         ]
     };
     var prizes = {
@@ -53,11 +41,12 @@ function App() {
     };
     return (react_1.default.createElement(react_1.default.Fragment, null,
         react_1.default.createElement(Header_1.default, null),
-        react_1.default.createElement(IntroWrap_1.default, null,
-            react_1.default.createElement(SkillStack_1.default, { skills: skills }),
-            react_1.default.createElement(Prizes_1.default, { prizes: prizes }),
-            react_1.default.createElement(Licenses_1.default, { licenses: licenses })),
-        react_1.default.createElement(ContractBar_1.default, null),
+        react_1.default.createElement("div", { className: "container" },
+            react_1.default.createElement(IntroWrap_1.default, null,
+                react_1.default.createElement(SkillStack_1.default, { skills: skills }),
+                react_1.default.createElement(Prizes_1.default, { prizes: prizes }),
+                react_1.default.createElement(Licenses_1.default, { licenses: licenses })),
+            react_1.default.createElement(ContractBar_1.default, null)),
         react_1.default.createElement(Footer_1.default, null)));
 }
 exports.default = App;

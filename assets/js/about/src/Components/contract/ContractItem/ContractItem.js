@@ -10,7 +10,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var react_1 = __importStar(require("react"));
 require("./ContractItem.scss");
 function ContractItem(props) {
-    var des = props.des, name = props.name, icon = props.icon;
+    var des = props.des, name = props.name, icon = props.icon, url = props.url;
     var bRef = react_1.createRef();
     var showBalloon = function () {
         var target = bRef.current;
@@ -26,7 +26,7 @@ function ContractItem(props) {
     };
     return (react_1.default.createElement("div", { className: 'contract-item' },
         react_1.default.createElement("div", { className: 'contract-balloon', ref: bRef }, des),
-        react_1.default.createElement("div", { onMouseOver: showBalloon, onMouseOut: hideBalloon },
+        react_1.default.createElement("a", { href: url || '#', onMouseOver: showBalloon, onMouseOut: hideBalloon },
             react_1.default.createElement("div", { className: 'contract-icon' },
                 react_1.default.createElement("i", { className: icon })),
             react_1.default.createElement("div", { className: 'contract-name' }, name))));
