@@ -1,25 +1,30 @@
-import React from 'react';
+import {hot} from 'react-hot-loader/root';
+import ReactTemplate from './Components/commons/ReactTemplate/ReactTemplate';
+import PostItemContainer from './Components/containers/PostItemContainer';
+import PostListContainer from './Components/containers/PostListContainer';
+import './App.css';
 
 function App(){
-    if(react_mode){
-        if(react_mode === "list") return (
-            <div>
-                list
-            </div>
-        );
-        if(react_mode === "item") return (
-            <div>
-                <h1>{title}</h1>
-                <p>
-                    {content}
-                </p>
-            </div>
-        );
-    }else return (
+    let _app = (
         <div>
-            404.
+            404 not found.
         </div>
     );
+
+    if(react_mode){
+        if(react_mode === "list" && posts) _app = (
+            <ReactTemplate>
+                <PostListContainer/>
+            </ReactTemplate>
+        );
+        else if(react_mode === "item") _app = (
+            <ReactTemplate>
+                <PostItemContainer/>
+            </ReactTemplate>
+        );
+    }
+
+    return _app;
 }
 
-export default App;
+export default hot(App);

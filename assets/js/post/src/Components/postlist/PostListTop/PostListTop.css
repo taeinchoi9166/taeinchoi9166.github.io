@@ -1,0 +1,9 @@
+/* 포스팅 목록 제목 */
+.post-list-top {
+    width:100%;
+    margin:3rem 0;
+}
+.post-list-top h2 {
+    width:100%;
+    text-align: center;
+}

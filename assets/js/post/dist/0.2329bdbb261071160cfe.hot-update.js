@@ -1,0 +1,1 @@
+webpackHotUpdate(0,{42:function(n,r,p){(n.exports=p(2)(!1)).push([n.i,"/* 포스팅 아이템 */\r\nli {\r\n    padding: 3rem 5rem;\r\n\r\n}\r\na {\r\n    width:100%;\r\n    height: 100%;\r\n    display: inline-block;\r\n    box-shadow: 2px 2px 5px 2px #888888;\r\n    padding: 1.6rem;\r\n}\r\n",""])}});

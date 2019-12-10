@@ -1,0 +1,28 @@
+/* 글 네비게이션 */
+.post-navigation {
+    display: flex;
+    justify-content: space-between;
+}
+
+.post-navigation .page-btn {
+    padding:0.6rem 1.2rem;
+    background: #422ba8;
+    border-radius: 9px;
+}
+
+.post-navigation .page-btn > * {
+    float:left;
+    height:100%;
+    margin: 0 3px;
+}
+.post-navigation .page-btn-img {
+    width:1.5rem;
+    background-size:cover;
+}
+.post-navigation .page-btn:first-child > .page-btn-img {background-image: url("/assets/images/left-arrow.png");}
+.post-navigation .page-btn:nth-child(2) > .page-btn-img {background-image: url("/assets/images/right-arrow.png");}
+
+.post-navigation .page-btn-text {
+    font-size:1.4rem;
+    color:#fff;
+}

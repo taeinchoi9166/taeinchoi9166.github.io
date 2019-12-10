@@ -1,0 +1,26 @@
+/* 푸터 */
+
+footer {
+    position: fixed;
+    bottom:0;
+    display:block;
+    width:100%;
+    background:#fff;
+}
+
+.footer-wrap{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+
+.footer-wrap > * {
+    width:100%;
+    padding:1.5rem 0;
+}
+
+.copyright {
+    text-align: center;
+}

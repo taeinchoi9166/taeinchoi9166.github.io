@@ -1,0 +1,1 @@
+webpackHotUpdate(0,{36:function(t,n,r){(t.exports=r(2)(!1)).push([t.i,"/* 포스팅 목록 제목 */\r\n.post-list-top {\r\n    width:100%;\r\n    margin:3rem 0;\r\n}\r\n.post-list-top h2 {\r\n    width:100%;\r\n    text-align: center;\r\n}\r\n",""])}});

@@ -1,0 +1,26 @@
+/* 글 정보란 */
+
+.post-info-bar {
+    border-top:1px solid #aaa;
+    border-bottom:1px solid #aaa;
+    padding:1.4rem 2.2rem;
+}
+.category-list {
+    display: inline-block;
+}
+
+.category-list li {
+
+    background: #422ba8;
+    display: inline-block;
+    border-radius: 6px;
+    float:left;
+    margin:0.5rem 1rem;
+
+}
+.category-list li > a {
+    padding:0.4rem 0.8rem;
+    color:#fff;
+    font-size:0.8rem;
+    display: inline-block;
+}

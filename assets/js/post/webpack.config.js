@@ -1,4 +1,5 @@
 const path = require('path');
+const {ProvidePlugin, HotModuleReplacementPlugin} = require('webpack');
 
 module.exports = {
     entry: path.resolve(__dirname, 'src/index.js'),
@@ -15,8 +16,18 @@ module.exports = {
             {
                 test: /\.css$/,
                 loaders: ['style-loader', 'css-loader']
+            },
+            {
+                test: /\.(jpg|png|gif)$/,
+                loader: 'file-loader'
             }
         ]
     },
+    plugins: [
+        new ProvidePlugin({
+            React: 'react'
+        }),
+        new HotModuleReplacementPlugin()
+    ],
     mode: "production"
 };

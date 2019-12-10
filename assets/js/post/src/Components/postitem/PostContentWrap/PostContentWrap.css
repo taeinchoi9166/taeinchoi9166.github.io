@@ -1,0 +1,9 @@
+/* 글 보기 전체 영역 */
+.post-wrap {
+    padding: 2rem 1rem;
+    box-shadow: 2px 3px 5px 2px #888;
+}
+
+.post-content {
+    padding: 1.2rem 0.7rem;
+}
