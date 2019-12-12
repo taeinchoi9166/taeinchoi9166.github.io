@@ -5,6 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Document</title>
+  <meta name="shortcut icon" href="/assets/images/favicon.ico">
+  <meta name="icon" href="/assets/images/favicon.ico">
 </head>
 <body>
 
@@ -13,7 +15,7 @@
     <script>
       const react_mode = "list";
       const posts = [
-        {% for post in site.posts %}{url:"{{ post.url }}", title: "{{ post.title }}"},{% endfor %}
+        {% for post in site.posts %}{url:"{{ post.url }}", title: "{{ post.title }}", written_date: "{{ post.date }}", content: "{{ post.content }}", category: "{{ post.categories }}"},{% endfor %}
       ];
     </script>
   {% else %}
@@ -21,6 +23,8 @@
       const react_mode = "item";
       const title = "{{ page.title }}";
       const content = `{{ page.content }}`;
+      const written_date = "{{ page.written_date }}";
+      const categories = "{{ page.written_date}}".split('\\');
     </script>
 
   {% endif %}

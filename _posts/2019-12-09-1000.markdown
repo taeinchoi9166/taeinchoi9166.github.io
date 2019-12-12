@@ -3,7 +3,7 @@ layout: post
 title:  "안녕하살법!"
 permalink: /post/:title/
 date:   2019-10-02 15:52:04 +0900
-categories: jekyll update
+categories: jekyll\update
 ---
 
 `안냐세연`

@@ -87,3 +87,17 @@ header {
     text-align: center;
     color:#fff;
 }
+
+@media(max-width: 460px){
+    .header-wrap .title h1 {
+        font-size:1.1rem;
+    }
+    .header-menu {
+        position: absolute;
+        right:0.8rem;
+        top:2.4rem;
+        width:1.6rem;
+        height:1.6rem;
+
+    }
+}

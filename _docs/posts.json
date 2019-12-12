@@ -1,0 +1,20 @@
+
+---
+---
+{
+  "posts": [
+    {% for post in site.posts %}
+      {
+        "url":"{{ post.url }}",
+        "title": "{{ post.title }}",
+        "written_date": "{{ post.date }}",
+        "categories": [
+          {% for category in post.categories %}
+            "{{ cateogry }}",
+          {% endfor %}
+        ],
+        "content": "{{ post.content | strip_html }}"
+      },
+    {% endfor %}
+  ]
+}

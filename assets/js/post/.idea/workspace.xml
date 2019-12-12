@@ -2,38 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="76a7f070-db01-4494-802f-9bb18d0cd3fa" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/commons/Footer/Footer.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/commons/Footer/Footer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/commons/Header/Header.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/commons/Header/Header.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/commons/ReactTemplate/ReactTemplate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/containers/PostItemContainer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/containers/PostListContainer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/postitem/PostContentWrap/PostContentWrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/postitem/PostContentWrap/PostContentWrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/postitem/PostInfoBar/PostInfoBar.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/postitem/PostInfoBar/PostInfoBar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/postitem/PostNavigation/PostNavigation.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/postitem/PostNavigation/PostNavigation.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/postitem/PostTitle/PostTitle.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/postitem/PostTitle/PostTitle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/postlist/PostListItem/PostListItem.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/postlist/PostListItem/PostListItem.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/postlist/PostListTop/PostListTop.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/postlist/PostListTop/PostListTop.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/postlist/PostListWrap/PostListWrap.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Gemfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../_config.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../_layouts/post.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../_layouts/post.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../images/VNC-Viewer-6.19.923-Windows.exe" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/babel.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/babel.config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/main.bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/main.bundle.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/commons/Header/Header.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/commons/Header/Header.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/postitem/PostNavigation/PostNavigation.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/postitem/PostNavigation/PostNavigation.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -47,31 +20,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Components/containers/PostItemContainer.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
-              <caret line="5" column="21" lean-forward="true" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Components/containers/PostListContainer.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="8" column="32" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Components/postitem/PostContentWrap/PostContentWrap.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="14" column="6" lean-forward="true" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
+            <state relative-caret-position="242">
+              <caret line="14" column="6" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
               <folding>
                 <element signature="e#0#47#0" expanded="true" />
               </folding>
@@ -82,7 +34,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/App.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-59">
+            <state relative-caret-position="221">
               <caret line="16" column="36" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
               <folding>
                 <element signature="e#0#42#0" expanded="true" />
@@ -94,8 +46,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Components/postlist/PostListWrap/PostListWrap.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+            <state relative-caret-position="264">
+              <caret line="13" selection-start-line="13" selection-end-line="13" />
               <folding>
                 <element signature="e#0#53#0" expanded="true" />
               </folding>
@@ -108,6 +60,24 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="88">
               <caret line="4" column="38" selection-start-line="4" selection-start-column="38" selection-end-line="4" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Components/postitem/PostNavigation/PostNavigation.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="259">
+              <caret line="44" column="23" lean-forward="true" selection-start-line="44" selection-start-column="23" selection-end-line="44" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Components/commons/Header/Header.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="397">
+              <caret line="92" column="25" lean-forward="true" selection-start-line="92" selection-start-column="25" selection-end-line="92" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -130,11 +100,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Components/postlist/PostListItem/PostListItem.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="88">
-              <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+              <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -176,12 +146,10 @@
         <option value="$PROJECT_DIR$/src/App.css" />
         <option value="$PROJECT_DIR$/babel.config.js" />
         <option value="$PROJECT_DIR$/src/Components/commons/Header/Header.js" />
-        <option value="$PROJECT_DIR$/src/Components/commons/Header/Header.css" />
         <option value="$PROJECT_DIR$/webpack.config.js" />
         <option value="$PROJECT_DIR$/src/Components/postitem/PostTitle/PostTitle.css" />
         <option value="$PROJECT_DIR$/src/Components/postitem/PostNavigation/PostNavigation.js" />
         <option value="$PROJECT_DIR$/src/Components/postitem/PostContentWrap/PostContentWrap.js" />
-        <option value="$PROJECT_DIR$/src/Components/postitem/PostNavigation/PostNavigation.css" />
         <option value="$PROJECT_DIR$/src/Components/postlist/PostListTop/PostListTop.js" />
         <option value="$PROJECT_DIR$/src/Components/postlist/PostListWrap/PostListWrap.js" />
         <option value="$PROJECT_DIR$/src/Components/containers/PostListContainer.js" />
@@ -189,14 +157,16 @@
         <option value="$PROJECT_DIR$/src/Components/postlist/PostListTop/PostListTop.css" />
         <option value="$PROJECT_DIR$/src/Components/postlist/PostListItem/PostListItem.js" />
         <option value="$PROJECT_DIR$/src/Components/postlist/PostListItem/PostListItem.css" />
+        <option value="$PROJECT_DIR$/src/Components/commons/Header/Header.css" />
+        <option value="$PROJECT_DIR$/src/Components/postitem/PostNavigation/PostNavigation.css" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="320" />
-    <option name="y" value="190" />
-    <option name="width" value="1920" />
-    <option name="height" value="1140" />
+    <option name="x" value="-12" />
+    <option name="y" value="-12" />
+    <option name="width" value="2586" />
+    <option name="height" value="1546" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -360,12 +330,13 @@
       <option name="presentableId" value="Default" />
       <updated>1575874850594</updated>
       <workItem from="1575874905028" duration="2813000" />
-      <workItem from="1575936897682" duration="20622000" />
+      <workItem from="1575936897682" duration="20703000" />
+      <workItem from="1576110066431" duration="4312000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23435000" />
+    <option name="totallyTimeSpent" value="27828000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1293" height="773" extended-state="6" />
@@ -495,13 +466,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/commons/Header/Header.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="70" column="20" selection-start-line="70" selection-start-column="20" selection-end-line="70" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/webpack.config.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="704">
@@ -523,44 +487,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/postitem/PostNavigation/PostNavigation.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="14" column="16" lean-forward="true" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/postitem/PostNavigation/PostNavigation.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="56" selection-start-line="7" selection-start-column="56" selection-end-line="7" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/postlist/PostListWrap/PostListWrap.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-          <folding>
-            <element signature="e#0#53#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/postitem/PostContentWrap/PostContentWrap.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" column="6" lean-forward="true" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
-          <folding>
-            <element signature="e#0#47#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Components/containers/PostItemContainer.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="21" lean-forward="true" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
+        <state relative-caret-position="88">
+          <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
@@ -574,13 +504,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.js">
+    <entry file="file://$PROJECT_DIR$/src/Components/postitem/PostContentWrap/PostContentWrap.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-59">
-          <caret line="16" column="36" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
+        <state relative-caret-position="242">
+          <caret line="14" column="6" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
           <folding>
-            <element signature="e#0#42#0" expanded="true" />
+            <element signature="e#0#47#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/postlist/PostListWrap/PostListWrap.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="e#0#53#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/postlist/PostListItem/PostListItem.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/postitem/PostNavigation/PostNavigation.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="56" selection-start-line="7" selection-start-column="56" selection-end-line="7" selection-end-column="56" />
         </state>
       </provider>
     </entry>
@@ -605,10 +559,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/postlist/PostListItem/PostListItem.css">
+    <entry file="file://$PROJECT_DIR$/src/App.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+        <state relative-caret-position="221">
+          <caret line="16" column="36" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
+          <folding>
+            <element signature="e#0#42#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/commons/Header/Header.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="397">
+          <caret line="92" column="25" lean-forward="true" selection-start-line="92" selection-start-column="25" selection-end-line="92" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/postitem/PostNavigation/PostNavigation.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="44" column="23" lean-forward="true" selection-start-line="44" selection-start-column="23" selection-end-line="44" selection-end-column="23" />
         </state>
       </provider>
     </entry>
