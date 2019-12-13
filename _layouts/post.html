@@ -14,9 +14,6 @@
   {% if page.title == "post_list" %}
     <script>
       const react_mode = "list";
-      const posts = [
-        {% for post in site.posts %}{url:"{{ post.url }}", title: "{{ post.title }}", written_date: "{{ post.date }}", content: "{{ post.content }}", category: "{{ post.categories }}"},{% endfor %}
-      ];
     </script>
   {% else %}
     <script>
@@ -24,7 +21,7 @@
       const title = "{{ page.title }}";
       const content = `{{ page.content }}`;
       const written_date = "{{ page.written_date }}";
-      const categories = "{{ page.written_date}}".split('\\');
+      const categories = "{{ page.written_date}}";
     </script>
 
   {% endif %}

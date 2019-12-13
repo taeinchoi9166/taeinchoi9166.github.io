@@ -8,8 +8,8 @@ permalink: /posts.json
         "url":"{{ post.url }}",
         "title": "{{ post.title }}",
         "written_date": "{{ post.date }}",
-        "categories": {{ post.categories | split: "\" }},
-        "content": "{{ post.content | strip_html | replace: """ , ""  | replace: "'", ""}}"
+        "categories": [{%- for cat in post.categories -%}"{{ cat }}"{% unless forloop.last %},{% endunless %}{%- endfor -%}],
+        "content": "{{ post.content | strip_newlines | strip_html | url_encode }}"
       }{% unless forloop.last %},{% endunless %}
     {% endfor %}
   ]

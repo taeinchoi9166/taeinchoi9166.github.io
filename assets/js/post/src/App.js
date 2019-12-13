@@ -12,7 +12,7 @@ function App(){
     );
 
     if(react_mode){
-        if(react_mode === "list" && posts) _app = (
+        if(react_mode === "list") _app = (
             <ReactTemplate>
                 <PostListContainer/>
             </ReactTemplate>
@@ -27,4 +27,4 @@ function App(){
     return _app;
 }
 
-export default hot(App);
+export default App;
