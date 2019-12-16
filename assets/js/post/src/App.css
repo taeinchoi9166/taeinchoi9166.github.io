@@ -19,6 +19,10 @@ button {
     background: none;
 }
 
+input {
+    border: none;
+}
+
 #root {
     padding:120px 0;
 }

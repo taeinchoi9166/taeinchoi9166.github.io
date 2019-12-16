@@ -1,13 +1,17 @@
 import './PostInfoBar.css';
+import _ from 'lodash';
 
 function PostInfoBar(){
     return (
         <div className={'post-info-bar'}>
-            <span>작성일 : 2001 . 19 . 11</span><br/><br/>
+            <span>작성일 : {written_date}</span><br/><br/>
+
             <ul className={'category-list'}>
-                <li><a href="#">master sword</a></li>
-                <li><a href="#">master</a></li>
-                <li><a href="#">word</a></li>
+                {
+                    _.map(categories, (category) => (
+                        <li><a href="#">{category}</a></li>
+                    ))
+                }
             </ul>
         </div>
     );

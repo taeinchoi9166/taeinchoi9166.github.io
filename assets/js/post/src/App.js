@@ -1,4 +1,4 @@
-import {hot} from 'react-hot-loader/root';
+//import {hot} from 'react-hot-loader/root';
 import ReactTemplate from './Components/commons/ReactTemplate/ReactTemplate';
 import PostItemContainer from './Components/containers/PostItemContainer';
 import PostListContainer from './Components/containers/PostListContainer';

@@ -8,7 +8,6 @@ function Header(){
     const minimizeHeader = () => {
         const scrollTop = window.scrollY;
         const _style = headerRef.current.style;
-        console.log(scrollTop);
 
         if(scrollTop >= 40) {
             _style.height = '60px';

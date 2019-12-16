@@ -20,8 +20,9 @@
       const react_mode = "item";
       const title = "{{ page.title }}";
       const content = `{{ page.content }}`;
-      const written_date = "{{ page.written_date }}";
-      const categories = "{{ page.written_date}}";
+      const written_date = new Date("{{ page.date }}").toDateString();
+      const categories = [{%- for cat in page.categories -%}"{{ cat }}"{%- unless forloop.last -%},{%- endunless -%}{%- endfor -%}];
+      console.log("{%- for cat in page.categories -%}{{ cat }},{%- endfor -%}");
     </script>
 
   {% endif %}

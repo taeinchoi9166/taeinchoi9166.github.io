@@ -1,0 +1,33 @@
+.search-area {
+    width: 80%;
+    max-width:340px;
+    height:40px;
+    border-radius: 1rem;
+    overflow: hidden;
+    border:2px solid #422ba8;
+    margin-top: 2.1rem;
+    margin-right: 0;
+}
+.search-area > *{
+    height:100%;
+}
+.search-area .search-inp {
+    width:70%;
+    padding:3px;
+    font-size:1.1rem;
+    border-bottom-left-radius: 1rem;
+    border-top-left-radius: 1rem;
+}
+.search-area .search-btn {
+    width:30%;
+    padding:0.5rem;
+    background: #422ba8;
+    color:#fff;
+    font-size:0.95rem;
+}
+
+@media (max-width: 460px){
+    .search-area {
+        margin-right: auto;
+    }
+}

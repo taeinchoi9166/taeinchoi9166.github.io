@@ -26,8 +26,7 @@ module.exports = {
     plugins: [
         new ProvidePlugin({
             React: 'react'
-        }),
-        new HotModuleReplacementPlugin()
+        })
     ],
     mode: "production"
 };

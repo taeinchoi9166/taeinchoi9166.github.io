@@ -2,145 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="76a7f070-db01-4494-802f-9bb18d0cd3fa" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../../_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../_config.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/postlist/PostLists/PostLists.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/postlist/SearchBox/SearchBox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/postlist/SearchBox/SearchBox.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../_layouts/post.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../_layouts/post.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../_posts/2019-10-02-1.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/../../../_posts/2019-10-02-1.markdown" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../_posts/2019-12-09-1000.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/../../../_posts/2019-12-09-1000.markdown" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/0.0892a554338dbebc3cc6.hot-update.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/0.0cb33d8a7fc8b9373384.hot-update.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/0.13e99109d233c43cc73e.hot-update.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/0.20cc83a36ddd167cd1a8.hot-update.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/0.2329bdbb261071160cfe.hot-update.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/0.2340436c0152f7cebc19.hot-update.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/0.28ac0a5a8aff7b14ba9c.hot-update.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/0.32f988dfb19bad8f5f30.hot-update.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/0.39a36087590fd269de02.hot-update.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/0.3cf590c1e1e9ba61bb7f.hot-update.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/0.3e633b7916e4b16ecd4f.hot-update.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/0.4b7ace800fb0ac4e95f2.hot-update.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/0.4cdc8e9e269a5256c17b.hot-update.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/0.50f8a8185df1becf7a5e.hot-update.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/0.588742d3403c4744c223.hot-update.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/0.5af620815cab230f2254.hot-update.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/0.5ecb0592332e65936d4a.hot-update.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/0.6008bcf14a63f2135803.hot-update.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/0.6167d9fc48ae710ca51e.hot-update.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/0.623f457d5cc2224eebb6.hot-update.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/0.72d288329d6c3c0c69a0.hot-update.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/0.7427cfdfd1623d99c1b5.hot-update.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/0.7ad9dd5c568be5312d39.hot-update.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/0.83d83886b4dd589e544b.hot-update.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/0.8488901838fefbbbc780.hot-update.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/0.879ea711ed6d6e3440ca.hot-update.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/0.896c618faa31cbb620d8.hot-update.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/0.8c0e6efc78f67ae47b68.hot-update.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/0.8c409a9942884cb5b3bf.hot-update.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/0.8d1d52732436293a1d98.hot-update.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/0.8dbdcfda65c60805fdde.hot-update.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/0.8e6eb22123cf0e9e17a4.hot-update.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/0.908f9aa7dea44046c6f4.hot-update.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/0.9a46317943eda0f0eba6.hot-update.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/0.9a825cda392011437e6a.hot-update.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/0.9f366b281c57e5e2b379.hot-update.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/0.a033694c324bc810eb7c.hot-update.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/0.ae7f94f0b9c960a1e6d5.hot-update.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/0.aeb998bf5e4c957cbb0d.hot-update.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/0.af49d687c4d86b57eba2.hot-update.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/0.b55d18ae75152b201591.hot-update.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/0.b69f34c691d4a21c9e7a.hot-update.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/0.ba3120975d6fd4d45388.hot-update.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/0.bb30d68ee549a0c51944.hot-update.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/0.bd91ab6a7326cc4fcd2b.hot-update.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/0.c3612b1b627b10862284.hot-update.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/0.cf0a7d23ef09a983f000.hot-update.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/0.d00157e6e587d6b7c9b8.hot-update.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/0.d0063af5c51da81eb4db.hot-update.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/0.d6063eb50dd23b79dd95.hot-update.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/0.de9b0c4bb9347ff76351.hot-update.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/0.dea126fc2021cd70c2c0.hot-update.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/0.def32c73b34704609b55.hot-update.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/0.e60a08c48b6ffe5f06d9.hot-update.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/0.e60b69536ef9033cddb1.hot-update.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/0.e9b1fdd67e6954b427e2.hot-update.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/0.ed8087259c8d9d4b7c61.hot-update.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/0.f22d1904e3c7b747a454.hot-update.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/0.f4f322776bb3395a9a57.hot-update.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/0.f54ddb00f64251613f45.hot-update.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/0.f7f32985b4b82a5aeb5b.hot-update.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/0.ffd41f76114562ad4e26.hot-update.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/0892a554338dbebc3cc6.hot-update.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/0cb33d8a7fc8b9373384.hot-update.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/13e99109d233c43cc73e.hot-update.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/20cc83a36ddd167cd1a8.hot-update.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/2329bdbb261071160cfe.hot-update.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/2340436c0152f7cebc19.hot-update.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/28ac0a5a8aff7b14ba9c.hot-update.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/32f988dfb19bad8f5f30.hot-update.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/39a36087590fd269de02.hot-update.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/3cf590c1e1e9ba61bb7f.hot-update.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/3e633b7916e4b16ecd4f.hot-update.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/4b7ace800fb0ac4e95f2.hot-update.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/4cdc8e9e269a5256c17b.hot-update.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/50f8a8185df1becf7a5e.hot-update.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/588742d3403c4744c223.hot-update.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/5af620815cab230f2254.hot-update.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/5ecb0592332e65936d4a.hot-update.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/6008bcf14a63f2135803.hot-update.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/6167d9fc48ae710ca51e.hot-update.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/623f457d5cc2224eebb6.hot-update.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/72d288329d6c3c0c69a0.hot-update.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/7427cfdfd1623d99c1b5.hot-update.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/7ad9dd5c568be5312d39.hot-update.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/83d83886b4dd589e544b.hot-update.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/8488901838fefbbbc780.hot-update.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/879ea711ed6d6e3440ca.hot-update.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/896c618faa31cbb620d8.hot-update.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/8c0e6efc78f67ae47b68.hot-update.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/8c409a9942884cb5b3bf.hot-update.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/8d1d52732436293a1d98.hot-update.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/8dbdcfda65c60805fdde.hot-update.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/8e6eb22123cf0e9e17a4.hot-update.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/908f9aa7dea44046c6f4.hot-update.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/9a46317943eda0f0eba6.hot-update.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/9a825cda392011437e6a.hot-update.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/9f366b281c57e5e2b379.hot-update.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/a033694c324bc810eb7c.hot-update.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/ae7f94f0b9c960a1e6d5.hot-update.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/aeb998bf5e4c957cbb0d.hot-update.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/af49d687c4d86b57eba2.hot-update.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/b55d18ae75152b201591.hot-update.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/b69f34c691d4a21c9e7a.hot-update.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/ba3120975d6fd4d45388.hot-update.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/bb30d68ee549a0c51944.hot-update.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/bd91ab6a7326cc4fcd2b.hot-update.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/c3612b1b627b10862284.hot-update.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/cf0a7d23ef09a983f000.hot-update.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/d00157e6e587d6b7c9b8.hot-update.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/d0063af5c51da81eb4db.hot-update.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/d6063eb50dd23b79dd95.hot-update.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/de9b0c4bb9347ff76351.hot-update.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/dea126fc2021cd70c2c0.hot-update.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/def32c73b34704609b55.hot-update.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/e60a08c48b6ffe5f06d9.hot-update.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/e60b69536ef9033cddb1.hot-update.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/e9b1fdd67e6954b427e2.hot-update.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/ed8087259c8d9d4b7c61.hot-update.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/f22d1904e3c7b747a454.hot-update.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/f4f322776bb3395a9a57.hot-update.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/f54ddb00f64251613f45.hot-update.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/f7f32985b4b82a5aeb5b.hot-update.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/ffd41f76114562ad4e26.hot-update.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/0.0dc64acf21f74da8385c.hot-update.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/0.aefa0a3d1e2b4b4ca8a9.hot-update.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/0dc64acf21f74da8385c.hot-update.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/aefa0a3d1e2b4b4ca8a9.hot-update.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/main.bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/main.bundle.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/containers/PostItemContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/containers/PostItemContainer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/commons/Header/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/commons/Header/Header.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/containers/PostListContainer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/containers/PostListContainer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/postlist/PostListItem/PostListItem.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/postlist/PostListItem/PostListItem.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/postitem/PostInfoBar/PostInfoBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/postitem/PostInfoBar/PostInfoBar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/postitem/PostNavigation/PostNavigation.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/postitem/PostNavigation/PostNavigation.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/postlist/PostListTop/PostListTop.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/postlist/PostListTop/PostListTop.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/postlist/PostListWrap/PostListWrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/postlist/PostListWrap/PostListWrap.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../posts.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../../posts.json" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -154,31 +36,55 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Components/postlist/PostListTop/PostListTop.css">
+        <entry file="file://$PROJECT_DIR$/src/Components/postlist/SearchBox/SearchBox.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+            <state>
+              <caret column="8" selection-start-column="8" selection-end-column="8" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Components/postlist/PostListTop/PostListTop.js">
+        <entry file="file://$PROJECT_DIR$/src/Components/containers/PostListContainer.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="88">
+              <caret line="19" column="3" selection-start-line="19" selection-start-column="3" selection-end-line="19" selection-end-column="3" />
+              <folding>
+                <element signature="e#0#49#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Components/postlist/PostListWrap/PostListWrap.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="44">
+              <caret line="2" selection-start-line="2" selection-end-line="2" />
+              <folding>
+                <element signature="e#0#53#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Components/postlist/PostLists/PostLists.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="176">
-              <caret line="8" column="49" selection-start-line="8" selection-start-column="49" selection-end-line="8" selection-end-column="49" />
+              <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
+              <folding>
+                <element signature="e#0#32#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Components/postlist/PostListWrap/PostListWrap.js">
+        <entry file="file://$PROJECT_DIR$/src/Components/postitem/PostNavigation/PostNavigation.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="7" column="17" lean-forward="true" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-              <folding>
-                <element signature="e#0#53#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="242">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
             </state>
           </provider>
         </entry>
@@ -188,10 +94,15 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>state</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
@@ -202,28 +113,31 @@
         <option value="$PROJECT_DIR$/src/index.js" />
         <option value="$PROJECT_DIR$/src/Components/commons/ReactTemplate/ReactTemplate.js" />
         <option value="$PROJECT_DIR$/src/Components/commons/Footer/Footer.js" />
-        <option value="$PROJECT_DIR$/src/Components/postitem/PostInfoBar/PostInfoBar.js" />
         <option value="$PROJECT_DIR$/src/Components/postitem/PostInfoBar/PostInfoBar.css" />
         <option value="$PROJECT_DIR$/src/Components/postitem/PostTitle/PostTitle.js" />
         <option value="$PROJECT_DIR$/src/Components/commons/Footer/Footer.css" />
         <option value="$PROJECT_DIR$/src/Components/postitem/PostContentWrap/PostContentWrap.css" />
-        <option value="$PROJECT_DIR$/src/App.css" />
         <option value="$PROJECT_DIR$/babel.config.js" />
-        <option value="$PROJECT_DIR$/src/Components/commons/Header/Header.js" />
-        <option value="$PROJECT_DIR$/webpack.config.js" />
         <option value="$PROJECT_DIR$/src/Components/postitem/PostTitle/PostTitle.css" />
-        <option value="$PROJECT_DIR$/src/Components/postitem/PostNavigation/PostNavigation.js" />
         <option value="$PROJECT_DIR$/src/Components/postitem/PostContentWrap/PostContentWrap.js" />
         <option value="$PROJECT_DIR$/src/Components/postlist/PostListTop/PostListTop.css" />
         <option value="$PROJECT_DIR$/src/Components/postlist/PostListItem/PostListItem.css" />
         <option value="$PROJECT_DIR$/src/Components/commons/Header/Header.css" />
         <option value="$PROJECT_DIR$/src/Components/postitem/PostNavigation/PostNavigation.css" />
         <option value="$PROJECT_DIR$/src/Components/containers/PostItemContainer.js" />
-        <option value="$PROJECT_DIR$/src/App.js" />
-        <option value="$PROJECT_DIR$/src/Components/containers/PostListContainer.js" />
-        <option value="$PROJECT_DIR$/src/Components/postlist/PostListWrap/PostListWrap.js" />
         <option value="$PROJECT_DIR$/src/Components/postlist/PostListItem/PostListItem.js" />
         <option value="$PROJECT_DIR$/src/Components/postlist/PostListTop/PostListTop.js" />
+        <option value="$PROJECT_DIR$/src/App.js" />
+        <option value="$PROJECT_DIR$/webpack.config.js" />
+        <option value="$PROJECT_DIR$/src/App.css" />
+        <option value="$PROJECT_DIR$/src/Components/postlist/SearchBox/SearchBox.css" />
+        <option value="$PROJECT_DIR$/src/Components/postitem/PostInfoBar/PostInfoBar.js" />
+        <option value="$PROJECT_DIR$/src/Components/commons/Header/Header.js" />
+        <option value="$PROJECT_DIR$/src/Components/postlist/PostListWrap/PostListWrap.js" />
+        <option value="$PROJECT_DIR$/src/Components/postlist/PostLists/PostLists.js" />
+        <option value="$PROJECT_DIR$/src/Components/postlist/SearchBox/SearchBox.js" />
+        <option value="$PROJECT_DIR$/src/Components/containers/PostListContainer.js" />
+        <option value="$PROJECT_DIR$/src/Components/postitem/PostNavigation/PostNavigation.js" />
       </list>
     </option>
   </component>
@@ -353,7 +267,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Components" type="462c0819:PsiDirectoryNode" />
               <item name="postlist" type="462c0819:PsiDirectoryNode" />
-              <item name="PostListItem" type="462c0819:PsiDirectoryNode" />
+              <item name="PostLists" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="post" type="b2602c69:ProjectViewProjectNode" />
@@ -370,6 +284,14 @@
               <item name="Components" type="462c0819:PsiDirectoryNode" />
               <item name="postlist" type="462c0819:PsiDirectoryNode" />
               <item name="PostListWrap" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="post" type="b2602c69:ProjectViewProjectNode" />
+              <item name="post" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Components" type="462c0819:PsiDirectoryNode" />
+              <item name="postlist" type="462c0819:PsiDirectoryNode" />
+              <item name="SearchBox" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -410,15 +332,16 @@
       <workItem from="1575874905028" duration="2813000" />
       <workItem from="1575936897682" duration="20703000" />
       <workItem from="1576110066431" duration="4463000" />
-      <workItem from="1576200506960" duration="6527000" />
+      <workItem from="1576200506960" duration="6856000" />
+      <workItem from="1576454490058" duration="13359000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34506000" />
+    <option name="totallyTimeSpent" value="48194000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-6" y="-6" width="1293" height="773" extended-state="7" />
+    <frame x="-6" y="-6" width="1293" height="773" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
@@ -465,16 +388,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/@babel/core/lib/transformation/file/file.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -496,13 +409,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-213">
-          <caret column="1" selection-start-column="1" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Components/commons/ReactTemplate/ReactTemplate.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="110">
@@ -510,20 +416,6 @@
           <folding>
             <element signature="e#0#38#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/postitem/PostInfoBar/PostInfoBar.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="12" lean-forward="true" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/commons/Footer/Footer.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
         </state>
       </provider>
     </entry>
@@ -541,34 +433,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="27" column="23" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Components/postitem/PostContentWrap/PostContentWrap.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
           <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/commons/Header/Header.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="30" column="64" lean-forward="true" selection-start-line="30" selection-start-column="46" selection-end-line="30" selection-end-column="64" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webpack.config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="704">
-          <caret line="32" column="2" lean-forward="true" selection-start-line="32" selection-start-column="2" selection-end-line="32" selection-end-column="2" />
         </state>
       </provider>
     </entry>
@@ -579,31 +447,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/postitem/PostTitle/PostTitle.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="25" selection-start-column="25" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/commons/Header/Header.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2024">
-          <caret line="92" column="25" selection-start-line="92" selection-start-column="25" selection-end-line="92" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Components/postlist/PostListItem/PostListItem.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
           <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/postitem/PostNavigation/PostNavigation.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="56" selection-start-line="7" selection-start-column="56" selection-end-line="7" selection-end-column="56" />
         </state>
       </provider>
     </entry>
@@ -614,16 +461,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/containers/PostListContainer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="20" column="17" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
-          <folding>
-            <element signature="e#0#49#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Components/containers/PostItemContainer.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="22">
@@ -631,27 +468,90 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.js">
+    <entry file="file://$PROJECT_DIR$/webpack.config.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="27" column="1" lean-forward="true" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
+        <state relative-caret-position="139">
+          <caret line="27" column="26" lean-forward="true" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
           <folding>
-            <element signature="e#0#42#0" expanded="true" />
+            <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/postlist/PostListItem/PostListItem.js">
+    <entry file="file://$PROJECT_DIR$/src/Components/commons/Footer/Footer.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="19" column="107" selection-start-line="19" selection-start-column="107" selection-end-line="19" selection-end-column="107" />
+        <state relative-caret-position="-169">
+          <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/postlist/PostListTop/PostListTop.js">
+    <entry file="file://$PROJECT_DIR$/node_modules/react/cjs/react.development.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="49" selection-start-line="8" selection-start-column="49" selection-end-line="8" selection-end-column="49" />
+        <state relative-caret-position="135">
+          <caret line="2250" column="2" selection-start-line="2250" selection-start-column="2" selection-end-line="2250" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/commons/Header/Header.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="90" column="23" selection-start-line="90" selection-start-column="7" selection-end-line="90" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/postlist/SearchBox/SearchBox.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/postlist/PostListTop/PostListTop.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-15">
+          <caret line="22" column="17" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/lodash/lodash.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" column="11" selection-start-line="1" selection-start-column="11" selection-end-line="1" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="1" selection-start-column="1" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/postitem/PostTitle/PostTitle.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="25" selection-start-column="25" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="4" column="14" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
         </state>
       </provider>
     </entry>
@@ -665,20 +565,81 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/postlist/PostListTop/PostListTop.css">
+    <entry file="file://$PROJECT_DIR$/src/Components/postlist/PostListItem/PostListItem.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="12" selection-start-column="12" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/postitem/PostInfoBar/PostInfoBar.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
-          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="e#0#27#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/postlist/PostListTop/PostListTop.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="9" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#27#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/commons/Header/Header.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="9" column="47" selection-start-line="9" selection-start-column="47" selection-end-line="9" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/postlist/SearchBox/SearchBox.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="8" selection-start-column="8" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/containers/PostListContainer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="19" column="3" selection-start-line="19" selection-start-column="3" selection-end-line="19" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#49#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Components/postlist/PostListWrap/PostListWrap.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="7" column="17" lean-forward="true" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        <state relative-caret-position="44">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
           <folding>
             <element signature="e#0#53#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/postlist/PostLists/PostLists.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/postitem/PostNavigation/PostNavigation.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>
