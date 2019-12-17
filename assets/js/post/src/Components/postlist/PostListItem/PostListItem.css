@@ -10,3 +10,22 @@
     box-shadow: 2px 2px 5px 2px #888888;
     padding: 1.6rem;
 }
+.post-list-item .categories {
+    margin-top:20px;
+    display:inline-block;
+}
+.post-list-item .category {
+    background: #422ba8;
+    display: inline-block;
+    border-radius: 6px;
+    float:left;
+    margin:0.4rem 0.6rem;
+    padding:0.3rem 0.6rem;
+    color:#fff;
+    font-size:0.85rem;
+}
+.post-list-item .date {
+    color: #444;
+    font-size: 0.81rem;
+
+}

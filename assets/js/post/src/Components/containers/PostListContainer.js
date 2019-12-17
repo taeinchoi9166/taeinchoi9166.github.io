@@ -52,8 +52,6 @@ function PostListContainer(){
                 console.log(err);
             }
         });
-
-        console.log('검색 결과 ', posts);
     }, []);
 
     return (

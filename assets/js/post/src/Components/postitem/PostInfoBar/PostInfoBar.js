@@ -4,7 +4,7 @@ import _ from 'lodash';
 function PostInfoBar(){
     return (
         <div className={'post-info-bar'}>
-            <span>작성일 : {written_date}</span><br/><br/>
+            <span>작성일 : {new Date(written_date).toLocaleString()}</span><br/><br/>
 
             <ul className={'category-list'}>
                 {

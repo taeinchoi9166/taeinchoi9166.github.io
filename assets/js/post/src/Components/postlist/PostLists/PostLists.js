@@ -15,7 +15,7 @@ function PostLists(){
                 posts.map(post => {
                     const _date = new Date(post.written_date);
                     return (
-                        <PostListItem title={post.title} url={post.url} written_date={_date.toLocaleTimeString()} categories={post.categories} content={post.content}/>
+                        <PostListItem title={post.title} url={post.url} written_date={_date.toLocaleString()} categories={post.categories} content={post.content}/>
                     );
                 })
             }

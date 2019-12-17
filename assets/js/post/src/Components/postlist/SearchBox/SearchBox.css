@@ -4,12 +4,14 @@
     height:40px;
     border-radius: 1rem;
     overflow: hidden;
-    border:2px solid #422ba8;
+    border:1.5px solid #422ba8;
     margin-top: 2.1rem;
     margin-right: 0;
 }
 .search-area > *{
     height:100%;
+    display:inline-block;
+    float:left;
 }
 .search-area .search-inp {
     width:70%;
