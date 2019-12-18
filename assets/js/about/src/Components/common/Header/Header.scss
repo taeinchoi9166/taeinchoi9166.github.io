@@ -6,12 +6,16 @@ $seed-round: #fff;
   width:100%;
   height:100vh;
   display: inline-block;
+  padding:1.5rem 0;
 
   .welcome-box {
     width: 100%;
-    height: 90px;
+    height: 70%;
     padding: 4rem 0;
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
     .welcome-msg {
       width:100%;
@@ -19,7 +23,7 @@ $seed-round: #fff;
       font-size: 3.4rem;
       color: $welcome-msg-font;
       font-weight: bold;
-      margin-bottom: 8rem;
+      margin-bottom: 2.7rem;
     }
 
     .seed-round {
@@ -43,12 +47,13 @@ $seed-round: #fff;
 
   .jump-btn-wrap {
     width: 13rem;
-    height:13rem;
+    height: 30%;
     position: relative;
 
     .jump-btn {
       width:100%;
       height: 25%;
+      max-height: 50px;
       border-radius: 5px;
       background: $jump-btn-bg;
       color: $jump-btn-font;

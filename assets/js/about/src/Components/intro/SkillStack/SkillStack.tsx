@@ -18,6 +18,20 @@ interface SkillStackProps{
     }
 }
 
+function increaseChart(refs: Array<SkillDisplayItem>) : any {
+    if(window.scrollY >= 658){
+        for(const ref of refs){
+            const circle = ref.curRef.current;
+
+            if(circle){
+                circle.style.strokeDashoffset = ((100 - ref.score) / 100 * 377).toString();
+            }
+        }
+    }
+
+    return false;
+}
+
 function SkillStack(props: SkillStackProps){
     const {skills : data} = props;
 
@@ -31,15 +45,12 @@ function SkillStack(props: SkillStackProps){
     }
 
     useEffect(() => {
-        console.log(refs);
-        for(const ref of refs){
-            const circle = ref.curRef.current;
-
-            if(circle){
-                console.log(circle.style.strokeDashoffset);
-                circle.style.strokeDashoffset = ((100 - ref.score) / 100 * 377).toString();
-            }
-        }
+        window.addEventListener('load', function(){
+            increaseChart(refs);
+        });
+        window.addEventListener('scroll', function(){
+            increaseChart(refs);
+        });
 
     },[]);
 

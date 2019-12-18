@@ -13,6 +13,18 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var react_1 = __importStar(require("react"));
 var VisualBlock_1 = __importDefault(require("../VisualBlock/VisualBlock"));
 require("./SkillStack.scss");
+function increaseChart(refs) {
+    if (window.scrollY >= 658) {
+        for (var _i = 0, refs_1 = refs; _i < refs_1.length; _i++) {
+            var ref = refs_1[_i];
+            var circle = ref.curRef.current;
+            if (circle) {
+                circle.style.strokeDashoffset = ((100 - ref.score) / 100 * 377).toString();
+            }
+        }
+    }
+    return false;
+}
 function SkillStack(props) {
     var data = props.skills;
     var refs = [];
@@ -24,15 +36,12 @@ function SkillStack(props) {
         });
     }
     react_1.useEffect(function () {
-        console.log(refs);
-        for (var _i = 0, refs_1 = refs; _i < refs_1.length; _i++) {
-            var ref = refs_1[_i];
-            var circle = ref.curRef.current;
-            if (circle) {
-                console.log(circle.style.strokeDashoffset);
-                circle.style.strokeDashoffset = ((100 - ref.score) / 100 * 377).toString();
-            }
-        }
+        window.addEventListener('load', function () {
+            increaseChart(refs);
+        });
+        window.addEventListener('scroll', function () {
+            increaseChart(refs);
+        });
     }, []);
     return (react_1.default.createElement(VisualBlock_1.default, { blockHeight: 50, blockWidth: 50 },
         react_1.default.createElement("h2", null, "\uAE30\uC220 \uC2A4\uD0DD"),
