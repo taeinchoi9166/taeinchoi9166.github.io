@@ -1,6 +1,6 @@
 $jump-btn-bg: #3fb776;
 $jump-btn-font: #efefef;
-$welcome-msg-font: #eee;
+$welcome-msg-font: #fefefe;
 $seed-round: #fff;
 .header {
   width:100%;
@@ -10,8 +10,8 @@ $seed-round: #fff;
 
   .welcome-box {
     width: 100%;
-    height: 70%;
-    padding: 4rem 0;
+    height: 60%;
+    padding: 2.5rem 0;
     display: flex;
     flex-direction: column;
     justify-content: center;

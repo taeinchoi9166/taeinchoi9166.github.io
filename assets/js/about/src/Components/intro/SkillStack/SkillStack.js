@@ -14,7 +14,7 @@ var react_1 = __importStar(require("react"));
 var VisualBlock_1 = __importDefault(require("../VisualBlock/VisualBlock"));
 require("./SkillStack.scss");
 function increaseChart(refs) {
-    if (window.scrollY >= 658) {
+    if (window.scrollY >= 630) {
         for (var _i = 0, refs_1 = refs; _i < refs_1.length; _i++) {
             var ref = refs_1[_i];
             var circle = ref.curRef.current;

@@ -6,8 +6,8 @@
 }
 .header .welcome-box {
   width: 100%;
-  height: 70%;
-  padding: 4rem 0;
+  height: 60%;
+  padding: 2.5rem 0;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -17,7 +17,7 @@
   width: 100%;
   text-align: center;
   font-size: 3.4rem;
-  color: #eee;
+  color: #fefefe;
   font-weight: bold;
   margin-bottom: 2.7rem;
 }

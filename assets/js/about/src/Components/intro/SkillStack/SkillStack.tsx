@@ -19,7 +19,7 @@ interface SkillStackProps{
 }
 
 function increaseChart(refs: Array<SkillDisplayItem>) : any {
-    if(window.scrollY >= 658){
+    if(window.scrollY >= 630){
         for(const ref of refs){
             const circle = ref.curRef.current;
 
