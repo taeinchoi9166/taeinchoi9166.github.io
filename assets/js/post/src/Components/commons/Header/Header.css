@@ -61,7 +61,7 @@ header {
     margin-right:0rem;
     margin-top:0rem;
 }
-
+/*
 .header-menu-wrap {
     width: 10rem;
     top: 3rem;
@@ -86,7 +86,7 @@ header {
     padding:1.4rem 1rem;
     text-align: center;
     color:#fff;
-}
+} */
 
 @media(max-width: 460px){
     .header-wrap .title h1 {

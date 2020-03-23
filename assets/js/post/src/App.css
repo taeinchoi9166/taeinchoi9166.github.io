@@ -24,7 +24,7 @@ input {
 }
 
 #root {
-    padding:120px 0;
+    /* padding:120px 0; */
 }
 
 .container {
@@ -32,4 +32,3 @@ input {
     margin-bottom:40px;
     max-width:980px;
 }
-

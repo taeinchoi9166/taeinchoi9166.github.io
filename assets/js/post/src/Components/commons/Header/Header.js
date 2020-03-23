@@ -24,7 +24,7 @@ function Header(){
       <header>
           <div className="header-wrap" ref={headerRef}>
               <div className="title">
-                  <h1>SproutSeed의 정신나간 기록</h1>
+                  <h1>SproutSeed's Blog</h1>
               </div>
               <div className="header-menu">
                   <input type="checkbox" id={"header-menu-toggle"}/>
