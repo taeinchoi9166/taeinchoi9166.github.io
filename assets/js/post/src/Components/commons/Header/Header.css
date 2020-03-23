@@ -10,7 +10,7 @@ header {
 
 .header-wrap {
     width:100%;
-    height: 120px;
+    height: 150px;
     background:rgba(235,235,235, 0.5);
     position: relative;
     transition: 0.6s;
@@ -45,7 +45,7 @@ header {
 
 }
 
-#header-menu-toggle {
+/* #header-menu-toggle {
     display:none;
 }
 #header-menu-toggle + label {
@@ -60,7 +60,7 @@ header {
     transform: scale(1.0);
     margin-right:0rem;
     margin-top:0rem;
-}
+} */
 /*
 .header-menu-wrap {
     width: 10rem;
@@ -78,15 +78,16 @@ header {
     width:100%;
     position:relative;
 }
-
+*/
 .header-menus > a {
     display: inline-block;
+    float:left;
     width:100%;
     background:#333;
     padding:1.4rem 1rem;
     text-align: center;
     color:#fff;
-} */
+}
 
 @media(max-width: 460px){
     .header-wrap .title h1 {

@@ -7,7 +7,8 @@
     width:100%;
     height: 100%;
     display: inline-block;
-    box-shadow: 2px 2px 5px 2px #888888;
+    border: 0.3px solid #bbb;
+    /* box-shadow: 2px 2px 5px 2px #888888; */
     padding: 1.6rem;
 }
 .post-list-item .categories {

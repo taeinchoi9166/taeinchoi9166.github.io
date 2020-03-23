@@ -13,7 +13,8 @@ function SearchBox(){
                 ({searchPosts, posts, setKeyword}) => (
                     <div className="search-area">
                         <input type="text" className="search-inp" ref={ref} onChange={
-                            () => {
+                            (e) => {
+                                e.stopPropagation();
                                 const _keyword = ref.current.value;
                                 setKeyword(_keyword);
                             }}/>

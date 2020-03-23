@@ -9,12 +9,12 @@ function Header(){
         const scrollTop = window.scrollY;
         const _style = headerRef.current.style;
 
-        if(scrollTop >= 40) {
-            _style.height = '60px';
-            _style.backgroundColor = 'rgba(235,235,235, 1)';
+        if(scrollTop >= 50) {
+            _style.height = '70px';
+          //  _style.backgroundColor = 'rgba(235,235,235, 0.5)';
         }else{
-            _style.height = '120px';
-            _style.backgroundColor = 'rgba(235,235,235, 0.5)';
+            _style.height = '150px';
+          //  _style.backgroundColor = 'rgba(235,235,235, 0.5)';
         }
     };
 
@@ -24,19 +24,9 @@ function Header(){
       <header>
           <div className="header-wrap" ref={headerRef}>
               <div className="title">
-                  <h1>SproutSeed's Blog</h1>
-              </div>
-              <div className="header-menu">
-                  <input type="checkbox" id={"header-menu-toggle"}/>
-                  <label htmlFor="header-menu-toggle">
-
-                  </label>
-                  <div className="header-menu-wrap">
-                      <div className="header-menus">
-                          <a href="/post" className="item"><span>포스팅 목록 보기</span></a>
-                          <a href="/" className="item"><span>홈 화면으로</span></a>
-                      </div>
-                  </div>
+                  <a href="/post">
+                    <h1>SproutSeed's Blog</h1>
+                  </a>
               </div>
           </div>
       </header>

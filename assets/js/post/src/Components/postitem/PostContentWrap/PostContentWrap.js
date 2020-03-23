@@ -1,16 +1,23 @@
+import {createRef, useEffect} from 'react'
 import PostTitle from '../PostTitle/PostTitle';
 import PostInfoBar from '../PostInfoBar/PostInfoBar';
 import PostNavigation from '../PostNavigation/PostNavigation';
 import './PostContentWrap.css';
 
 function PostContentWrap(){
+    const postRef = createRef();
+
+    useEffect(()=>{
+      postRef.current.style.opacity = 1;
+    },[]);
+
     return (
-        <div className={'post-wrap'}>
+        <div className={'post-wrap'} ref={postRef}>
             <PostTitle/>
             <PostInfoBar/>
             <div className={'post-content'} dangerouslySetInnerHTML={{__html:content}}>
+
             </div>
-            <PostNavigation/>
         </div>
     );
 }

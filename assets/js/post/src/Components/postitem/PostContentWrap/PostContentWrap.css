@@ -1,7 +1,10 @@
 /* 글 보기 전체 영역 */
 .post-wrap {
     padding: 2rem 1rem;
-    box-shadow: 2px 3px 5px 2px #888;
+    border: 0.3px solid #bbb;
+    transition: opacity 1.8s;
+    opacity: 0;
+    /* box-shadow: 2px 3px 5px 2px #888; */
 }
 
 .post-content {
