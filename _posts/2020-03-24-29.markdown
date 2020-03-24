@@ -1,0 +1,14 @@
+---
+layout: post
+title:  "테스트!"
+permalink: /post/:title/
+date:   2020-10-02 10:01:50 +0900
+categories: ["테스트"]
+---
+
+### 헿
+
+__테스트중입니다.__
+
+
+[네이버](https://www.naver.com)
