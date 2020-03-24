@@ -17,10 +17,13 @@ function SearchBox(){
                                 e.stopPropagation();
                                 const _keyword = ref.current.value;
                                 setKeyword(_keyword);
+                            }} onKeyPress={e => {
+                                if(e.key === 'Enter'){
+                                  searchPosts();
+                                }
                             }}/>
                         <button className="search-btn" onClick={() => {
                             searchPosts();
-                            console.log(posts);
                         }}>검색</button>
                     </div>
                 )
