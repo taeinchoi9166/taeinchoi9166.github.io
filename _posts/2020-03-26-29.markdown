@@ -1,0 +1,13 @@
+---
+layout: post
+title:  "New post"
+permalink: /post/:title/
+date:   2020-03-26 10:14:00 +0900
+categories: ["test"]
+---
+
+# I'm testing for Github Pages.
+
+![test](https://imgur.com/OUMhGgx.png)
+
+**It's my test image.**
