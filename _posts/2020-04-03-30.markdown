@@ -1,0 +1,33 @@
+---
+layout: post
+title:  "D3.JS"
+permalink: /post/:title/
+date:   2020-04-03 10:14:00 +0900
+categories: ["js","D3"]
+---
+
+## D3.JS
+
+> 웹브라우저 상에서 동적이고 인터렉티브한 정보시각화를 구현하기 위한 자바스크립트 라이브러리
+
+간단히 말해 그래프나 차트 그려주는 라이브러리
+
+
+## 세로막대 차트 그리기
+
+```js
+const svg = d3.select('svg'); //1. svg에 차트를 그림
+const data = [10,5,20];
+svg.selectAll('rect') //2. rect이라는 이름의 요소들을 모두 선택하여 selection으로 만듬(selection은 데이터를 넣을 공간, rect 요소를 찾을게 아니라면 값으로 rect을 넣지 않음)
+.data(data) // 3. 각 데이터를 selection에 넣어줌
+.enter() //4. 선택되지 않은 요소와 각 데이터를 1 : 1관계로 넣어줌, 이때 선택된 요소가 있으면 해당 데이터를 넣지 않음
+.append('rect') // 5. 각 selection들을 rect 요소로 표현
+.attr('fill', (d, i) => '#aaf') // 6. 값 설정
+.attr('height', d => d)
+.attr('width', 40)
+.attr('x', (d, i) => i * 50)
+.attr('y',(d, i) => 100 - (data[i]))
+```
+
+### 결과
+![sample1](http://i.imgur.com/2Sa46Gi.png)
