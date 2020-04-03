@@ -2,7 +2,7 @@
 layout: post
 title:  "D3.JS"
 permalink: /post/:title/
-date:   2020-04-03 10:14:00 +0900
+date:   2020-04-03 17:30:00 +0900
 categories: ["js","D3"]
 ---
 
@@ -31,3 +31,60 @@ svg.selectAll('rect') //2. rect이라는 이름의 요소들을 모두 선택하
 
 ### 결과
 ![sample1](http://i.imgur.com/2Sa46Gi.png)
+
+
+## 도넛 차트 그리기
+
+```js
+const w = 500, h = 500;
+const data = [
+  {name: '1번', value: 45, color: '#0f0fcc'},
+  {name: '2번', value: 20, color: '#584892'},
+  {name: '3번', value: 12, color: '#228f42'},
+  {name: '4번', value: 4, color: '#412c96'},
+  {name: '5번', value: 4, color: '#187fc1'},
+  {name: '6번', value: 15, color: '#ff5477'}
+];
+
+const arc = d3.arc().innerRadius(100).outerRadius(Math.min(w, h) / 2); // 도넛 모양 만듬
+const arcLabel = (()=>{
+  const r = Math.min(w, h) / 2 * 0.8;
+  return d3.arc().innerRadius(r).outerRadius(r);
+})();
+
+const arcs = d3.pie().value(d => d.value)(data);
+
+//도넛그리기
+const svg = d3.select('svg').attr('text-anchor', 'middle').style('font-size', '11px');
+const g = svg.append('g')
+.attr('transform', `translate(${w/2},${h/2})`);
+g.selectAll('path')
+.data(arcs)
+.enter()
+.append('path')
+.attr('fill', (d, i) => d.data.color)
+.attr('stroke', 'black')
+.attr('d', arc)
+.append('title')
+.text(d => `${d.data.name}`);
+
+// text 요소를 path안에 넣음
+const text = g.selectAll('text')
+.data(arcs)
+.enter()
+.append('text')
+.attr('transform', d => `translate(${arcLabel.centroid(d)})`)
+.attr('dy', '0.15em');
+
+text.append('tspan')
+.attr('x',0)
+.attr('y', '0.7em')
+.style('font-weight', 'bold')
+.style('fill', 'white')
+.text(d => d.data.name + '\n' + d.value + '%')
+
+svg.node();
+```
+
+### 결과
+![sample2](https://i.imgur.com/DurevYB.png)
