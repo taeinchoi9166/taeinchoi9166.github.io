@@ -57,7 +57,7 @@ const arcs = d3.pie().value(d => d.value)(data);
 //도넛그리기
 const svg = d3.select('svg').attr('text-anchor', 'middle').style('font-size', '11px');
 const g = svg.append('g')
-.attr('transform', `translate(${w/2},${h/2})`);
+.attr('transform', 'translate(' + (w/2) + ',' + (h/2) + ')');
 g.selectAll('path')
 .data(arcs)
 .enter()
@@ -66,14 +66,14 @@ g.selectAll('path')
 .attr('stroke', 'black')
 .attr('d', arc)
 .append('title')
-.text(d => `${d.data.name}`);
+.text(d => d.data.name);
 
 // text 요소를 path안에 넣음
 const text = g.selectAll('text')
 .data(arcs)
 .enter()
 .append('text')
-.attr('transform', d => `translate(${arcLabel.centroid(d)})`)
+.attr('transform', d => 'translate(' + arcLabel.centroid(d) + ')')
 .attr('dy', '0.15em');
 
 text.append('tspan')
