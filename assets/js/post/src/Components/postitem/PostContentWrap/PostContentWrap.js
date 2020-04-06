@@ -3,6 +3,7 @@ import PostTitle from '../PostTitle/PostTitle';
 import PostInfoBar from '../PostInfoBar/PostInfoBar';
 import PostNavigation from '../PostNavigation/PostNavigation';
 import './PostContentWrap.css';
+import './github-markdown.css';
 
 function PostContentWrap(){
     const postRef = createRef();
@@ -12,7 +13,7 @@ function PostContentWrap(){
     },[]);
 
     return (
-        <div className={'post-wrap'} ref={postRef}>
+        <div className={'post-wrap markdown-body'} ref={postRef}>
             <PostTitle/>
             <PostInfoBar/>
             <div className={'post-content'} dangerouslySetInnerHTML={{__html:content}}>
