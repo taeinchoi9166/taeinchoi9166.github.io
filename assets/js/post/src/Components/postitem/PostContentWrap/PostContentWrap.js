@@ -4,8 +4,6 @@ import PostInfoBar from '../PostInfoBar/PostInfoBar';
 import PostNavigation from '../PostNavigation/PostNavigation';
 import './PostContentWrap.css';
 import './github-markdown.css';
-import '../../common/highlight/highlight.pack.js';
-import '../../common/highlight/styles/railcasts.css';
 
 function PostContentWrap(){
     const postRef = createRef();
