@@ -18,6 +18,14 @@ module.exports = {
                 loaders: ['style-loader', 'css-loader']
             },
             {
+                test: /\.(ttf|otf)$/,
+                loader: 'url-loader',
+                options: {
+                  limit: 10000,
+                  name: '[hash].[ext]'
+                }
+            },
+            {
                 test: /\.(jpg|png|gif)$/,
                 loader: 'file-loader'
             }

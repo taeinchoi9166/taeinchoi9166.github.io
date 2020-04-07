@@ -1,24 +1,24 @@
 @font-face {
   font-family: 'NanumGothicCoding';
-  src: url('./fonts/NanumGothicCoding/NanumGothicCoding-Regular.ttf');
+  src: url('../common/fonts/NanumGothicCoding/NanumGothicCoding-Regular.ttf');
   font-weight: normal;
 }
 
 @font-face {
   font-family: 'NanumGothicCoding';
-  src: url('./fonts/NanumGothicCoding/NanumGothicCoding-Bold.ttf');
+  src: url('../common/fonts/NanumGothicCoding/NanumGothicCoding-Bold.ttf');
   font-weight: bold;
 }
 
 @font-face {
   font-family: 'NotoSansKR';
-  src: url('./fonts/NotoSansKR/NotoSansKR-Regular.ttf');
+  src: url('../common/fonts/NotoSansKR/NotoSansKR-Regular.otf');
   font-weight: normal;
 }
 
 @font-face {
   font-family: 'NotoSansKR';
-  src: url('./fonts/NotoSansKR/NotoSansKR-Bold.ttf');
+  src: url('../common/fonts/NotoSansKR/NotoSansKR-Bold.otf');
   font-weight: bold;
 }
 
