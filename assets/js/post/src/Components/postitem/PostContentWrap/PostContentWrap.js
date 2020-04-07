@@ -4,6 +4,8 @@ import PostInfoBar from '../PostInfoBar/PostInfoBar';
 import PostNavigation from '../PostNavigation/PostNavigation';
 import './PostContentWrap.css';
 import './github-markdown.css';
+import '../../common/highlight/highlight.pack.js';
+import '../../common/highlight/styles/railcasts.css';
 
 function PostContentWrap(){
     const postRef = createRef();
@@ -13,10 +15,10 @@ function PostContentWrap(){
     },[]);
 
     return (
-        <div className={'post-wrap markdown-body'} ref={postRef}>
+        <div className={'post-wrap'} ref={postRef}>
             <PostTitle/>
             <PostInfoBar/>
-            <div className={'post-content'} dangerouslySetInnerHTML={{__html:content}}>
+            <div className={'post-content markdown-body'} dangerouslySetInnerHTML={{__html:content}}>
 
             </div>
         </div>

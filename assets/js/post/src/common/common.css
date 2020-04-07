@@ -1,0 +1,27 @@
+@font-face {
+  font-family: 'NanumGothicCoding';
+  src: url('./fonts/NanumGothicCoding/NanumGothicCoding-Regular.ttf');
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'NanumGothicCoding';
+  src: url('./fonts/NanumGothicCoding/NanumGothicCoding-Bold.ttf');
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: 'NotoSansKR';
+  src: url('./fonts/NotoSansKR/NotoSansKR-Regular.ttf');
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'NotoSansKR';
+  src: url('./fonts/NotoSansKR/NotoSansKR-Bold.ttf');
+  font-weight: bold;
+}
+
+* {
+  font-family: 'NotoSansKR';
+}

@@ -3,6 +3,7 @@ import ReactTemplate from './Components/commons/ReactTemplate/ReactTemplate';
 import PostItemContainer from './Components/containers/PostItemContainer';
 import PostListContainer from './Components/containers/PostListContainer';
 import './App.css';
+import 'common/common.css';
 
 function App(){
     let _app = (
